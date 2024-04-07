@@ -1,4 +1,6 @@
 function userInformationHTML(user) {
+    $("#gh-user-data").html("");
+    $("#gh-repo-data").html("");
     return `
         <h2>${user.name}
             <span class="small-name">
